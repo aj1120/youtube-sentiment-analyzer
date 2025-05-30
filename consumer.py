@@ -74,18 +74,3 @@ if __name__ == "__main__":
 
 
 
-
-''' from kafka import KafkaConsumer
-import json
-
-consumer = KafkaConsumer(
-    'youtube_data',  # ← Use the topic name from scrap.py
-    bootstrap_servers=['127.0.0.1:9092'],  # ← This is the correct place
-    auto_offset_reset='earliest',
-    enable_auto_commit=True,
-    group_id='my-group',
-    value_deserializer=lambda x: json.loads(x.decode('utf-8'))
-)
-
-for message in consumer:
-    print(message.value)'''
