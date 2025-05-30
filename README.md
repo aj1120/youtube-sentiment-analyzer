@@ -29,9 +29,6 @@ Extract data with help of kafka Producer, read data with help of Consumer both o
 3. Setup MySQL and run `db_schema.sql`
 4. Run `producer.py` and `consumer.py`
 
-## 📸 Sample Output
-![Sample Screenshot](sample_output/results.png)
-
 ## 🧠 Future Improvements
 - Add a web dashboard (Flask/Django)
 - Use machine learning for advanced sentiment analysis
